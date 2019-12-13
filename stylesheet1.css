@@ -1,0 +1,144 @@
+@import url('https://fonts.googleapis.com/css?family=Raleway:400,400i,500|Work+Sans&display=swap');
+
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: 'Work Sans', sans-serif;
+	line-height: 1.6;
+	margin: 0;
+	min-height: 100vh;
+}
+
+ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+
+h3,
+a {
+	color: #34495e;
+}
+
+a {
+	text-decoration: none;
+}
+
+.logo {
+	margin: 0;
+	height: 50px;
+}
+
+.main-nav {
+	margin-top: 5px;
+
+}
+.logo a,
+.main-nav a {
+	padding: 10px 15px;
+	text-align: center;
+	display: block;;
+}
+
+.main-nav a {
+	color: #34495e;
+	font-size: .99em;
+}
+
+.main-nav a:hover {
+	color: #718daa;
+}
+
+.header {
+	padding-top: .5em;
+	padding-bottom: .5em;
+	border: 1px solid #a2a2a2;
+	background-color: #f4f4f4;
+	-webkit-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-moz-box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	box-shadow: 0px 0px 14px 0px rgba(0,0,0,0.75);
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.full-container header {
+	display:flex;
+	flex-direction: column;
+	justify-content: column;
+	height: 100vh;
+	padding: 1em;
+	box-sizing: border-box;
+	color: white;
+	background-image: url(brad-knight-huWlb1NP67w-unsplash.jpg) center center no-repeat;
+	background-size: cover;
+}
+
+.banner {
+	background-image: url(brad-knight-huWlb1NP67w-unsplash.jpg);
+	width: 100%;
+	background-size: cover;
+	height: 100%;
+	max-width: 100%;
+}
+
+.span, h2 {
+	font-family: 'Raleway', sans-serif;
+	margin-left: 30px;
+	margin-top: 1000x;
+}
+
+.banner-text-items {
+	font-family: 'Raleway', sans-serif;
+	margin: auto;
+	display: flex;
+	flex-direction:column;
+}
+
+.banner-text {
+	display: -webkit-box;
+	display: -webkit-flex;
+	display : -ms-flexbox;
+	display: flex;
+	padding: 15% 0;
+}
+
+p {
+	width: 500px;
+	font-size: 20px;
+	font-family: 'Raleway', sans-serif;
+	margin-left: 30px;
+	text-emphasis: n
+}
+
+@media (min-width: 769px) {
+	.header,
+	.main-nav {
+		display: flex;
+	}
+	.header {
+		flex-direction: column;
+		align-items: center;
+		width: 80%;
+		margin: 0 auto;
+		max-width: 1150px;
+	}
+}
+
+@media (min-width: 1025px) {
+	.header {
+		flex-direction: row;
+		justify-content: space-between;
+	}
+
+}
+
+@media all and (max-width:500px){
+	.banner-text-items{
+		width: 100%
+	}
+}
